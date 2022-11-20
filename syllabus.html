@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<title>ECETSOLUTIONS | Practice for Ecet Exam | Previous year papers | Practice Test series</title>
+<!-- Favicons -->
+<link href="images/title-logo-2.jpg" rel="icon" type="images/icon">
+<link rel="stylesheet" href="css/navbar2.css">
+<link rel="stylesheet" href="css/account.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/syllabus.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="kit.fontawesome.com/a076d05399.html"></script>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.html">
+<!-- jQuery library -->
+<script src="ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.html"></script>
+<!-- Popper JS -->
+<script src="cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.html"></script>
+<!-- Latest compiled JavaScript -->
+<script src="maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.html"></script> 
+<meta name="google-site-verification" content="ESacEAzCRk_U-wYFbwUn0PpQXVenG0x0WsHQ-O_KcvA" />  
+</head>
+<body>
+<section id="nav-bar">
+<nav class="nav-tap">
+<div class="menu-icon"><span class="fas fa-bars"></span></div>
+<img src="logo.jpg" class="blogo" width="80px" height="60px"/>&nbsp;&nbsp;&nbsp;
+<a class="logo" href="index-3.html"><h3><span class="color">ECET</span>Coach</h3></a>
+<div class="nav-items">
+<div class="cancel-icon"><span class="fas fa-times"></span></div>
+<li><a href="index.html">Home</a></li>
+<li>
+<div class="dropdown open">
+<a class=" dropdown-toggle" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Previous papers
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu multi-level" aria-labelledby="dLabel">
+<li class="dropdown-submenu">
+<a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item">TS papers<img src="images/dropright.png" width="20px"></a>
+<ul aria-labelledby="dropdownMenu2" class="dropdown-menu" id="drop1">
+<li><a href="pp.html" class="ditem" onclick="stateT()">Previous papers(All Branches)</a></li>
+<li><a href="techp.html" class="ditem" onclick="stateT()">Technical papers(All Branches)</a></li>
+<li><a href="nontechp.html" class="ditem" onclick="stateT()">MPC(All branches)</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu"style="display:none">
+<a id="dropdownMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item">AP papers<img src="images/dropright.png" width="20px"></a>
+<ul aria-labelledby="dropdownMenu3" class="dropdown-menu" id="drop2">
+<li><a href="pp.html" class="ditem" onclick="stateA()">Previous papers(All Branches)</a></li>
+<li><a href="techp.html" class="ditem" onclick="stateA()">Technical papers(All Branches)</a></li>
+<li><a href="nontechp.html" class="ditem" onclick="stateA()">MPC(All branches)</a></li>
+</ul>
+</li>
+</ul>
+</div> 
+<li> 
+<!-- <li><a href="mockstart.html">Mock test</a></li>
+<li><a href="#top" onclick="dis()">Test series</a></li>
+<li><a href="#top"onclick="dis()">Discussion forum</a></li>
+<li><a href="about.html">About</a></li>
+<li><img  class="discuss" src="images/profile.webp" width="30px" data-toggle="modal" data-target="#myModal"></li>
+</div> -->
+<div class="logbtn">
+<img  class="discuss1" src="images/profile.png" width="30px" data-toggle="modal" data-target="#myModal">
+<!-------------logout------>
+<div class="dropdown dropleft" style="display:none;">
+<a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+<img  class="discuss2" src="images/logout.png" width="30px">
+</a>
+<div class="dropdown-menu" style="margin-top: 120%">
+<form class="px-3 py-2">
+<label style="font-size: 14px" id="mail-label"></label>
+<!-- <a href="result.html" class="myresult">My Results</a>
+<button class="btn btn-primary" onclick="logout()" style="font-size:12px;margin-top:10%;background:#2196f3">Logout</button> -->
+</form>
+</div>
+</div>
+</div>
+<!-------logout end-------------->
+</nav>
+</section>
+<!--------------register modal-------->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary regbutton" data-toggle="modal" data-target="#exampleModalCenter" hidden>
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="regmodal">
+<div class="modal fade" id="exampleModalCenter"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="background:#fff;  box-shadow: 0 0 40px 2px rgba(37,73,214,0.18)">
+      <div class="modal-body" >
+      <h5 style="text-align: center">
+       <img src="images/logout.png" width="100px" style="margin-top: -1%"></h5>
+      <h4><span class="colorco">ECET</span>Coach</h4>
+       <p>Welcome <label style="color:#2196f3" id="wuser">ichaithanyasai@gmail.com</label></p>
+       <button type="button" class="btn " data-dismiss="modal" style="float: right">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-----------------account-------------->
+<!-- <div class="modal fade" id="myModal" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<span class="close" data-dismiss="modal">&times;</span>
+<nav>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+<a class="nav-item active1" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Login</a>
+<a class="nav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Register</a>
+</div>
+</nav>
+<!-- <div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+<div class="row">
+<div class="col-md-12">
+<div class="form-data">
+<input type="email" class="input-field" placeholder="Email id" id="uname" required>
+<input type="password" class="input-field" placeholder="Password" id="upass" required> 
+<button  class="acc-btn loadin" onclick="login()">Log in</button>
+<div style="align-content:center;float:right;">
+    <a class="btn btn-white" onclick="glog()" role="button" style="text-transform:none;background:#fff;color:#000;border:1px solid #c5c5c5">
+      <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google__G__Logo.svg/512px-Google__G__Logo.svg.html" />
+      Sign-In with Google
+    </a>
+</div><br>
+<button class="forgot" onclick="forgot()">Forgot password ?</button> 
+</div> 
+</div>
+</div>
+</div> -->
+<!-- <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+<div class="row">
+<div class="col-md-12">
+<div class="form-data">
+<!--<input type="text" class="input-field" placeholder="Username" id="rname" required>
+<input type="email" class="input-field" placeholder="Email id" id="remail" required>
+<input type="password" class="input-field"  placeholder="Create Password" id="rpass" required>
+<input type="password" class="input-field"  placeholder="Confirm Password" required> 
+<button class="acc-btn regin" onclick="register()">Register</button> 
+<div style="align-content:center;float:right;">
+            <a class="btn btn-white" onclick="glog()" role="button" style="text-transform:none;background:#fff;color:#000;border:1px solid #c5c5c5">
+              <img width="20px" style="margin-bottom:3px; margin-right:5px;" alt="Google sign-in" src="upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google__G__Logo.svg/512px-Google__G__Logo.svg.html" />
+              SignUp with Google
+            </a>
+</div>
+</div> 
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>-->
+
+<!-----------------syllabus------------------>
+<section id="Syllabus">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+   <div class="sy">
+ <h5>TS Ecet Syllabus</h5>   
+</div>
+    <!--Table-->
+<table class="table table-striped">
+
+  <!--Table head-->
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Branch</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <!--Table head-->
+
+  <!--Table body-->
+  <tbody>
+    <tr class="table-info">
+      <th scope="row">1</th>
+      <td>Computer Engineering</td>
+      <td><a href="syllabus/TS/cse.pdf">click to download</a></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Civil Engineering</td>
+       <td><a href="syllabus/TS/civil.pdf">click to download</a></td>
+     
+    </tr>
+    <tr class="table-info">
+      <th scope="row">3</th>
+      <td>Electronics and Communication Engineering</td>
+      <td><a href="syllabus/TS/ece.pdf">click to download</a></td>
+     
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Electrical and Electronics Engineering</td>
+       <td><a href="syllabus/TS/eee.pdf">click to download</a></td>
+     
+      
+    </tr>
+    <tr class="table-info">
+      <th scope="row">5</th>
+      <td>Mechanical Engineering</td>
+      <td><a href="syllabus/TS/mech.pdf">click to download</a></td>
+      
+    </tr>
+  </tbody>
+  <!--Table body-->
+
+
+</table>
+<!--Table-->
+</div>
+</div>
+</div>   
+</section>
+
+<section id="Syllabus">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+   <div class="sy">
+ <h5>AP Ecet Syllabus</h5>   
+</div>
+    <!--Table-->
+<table class="table table-striped">
+
+  <!--Table head-->
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Branch</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <!--Table head-->
+
+  <!--Table body-->
+  <tbody>
+    <tr class="active">
+      <th scope="row">1</th>
+      <td>Computer Engineering</td>
+      <td><a href="syllabus/AP/COMPUTER%20SCIENCE%20AND%20%20ENGINEERING.pdf">click to download</a></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Civil Engineering</td>
+       <td><a href="syllabus/AP/CIVIL%20ENGINEERING.pdf">click to download</a></td>
+     
+    </tr>
+    <tr class="active">
+      <th scope="row">3</th>
+      <td>Electronics and Communication Engineering</td>
+      <td><a href="syllabus/AP/ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING.pdf">click to download</a></td>
+     
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Electrical and Electronics Engineering</td>
+       <td><a href="syllabus/AP/ELECTRICAL%20AND%20ELECTRONICS%20ENGINEERING.pdf">click to download</a></td>
+     
+      
+    </tr>
+    <tr class="active">
+      <th scope="row">5</th>
+      <td>Mechanical Engineering</td>
+      <td><a href="syllabus/AP/MECHANICAL%20ENGINEERING.pdf">click to download</a></td>
+    </tr>    
+  </tbody>
+  
+  <!--Table body-->
+
+
+</table>
+<!--Table-->
+<div class="sy" style="margin-top: -4%">
+ <h5>AP MPC(for all branches)</h5>   
+</div>
+<table class="table table-striped">
+
+  <!--Table head-->
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Subjects</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <!--Table head-->
+
+  <!--Table body-->
+  <tbody>
+    <tr class="active">
+      <th scope="row">1</th>
+      <td>Mathematics</td>
+      <td><a href="syllabus/AP/MATHEMATICS%20(FOR%20DIPLOMA%20HOLDERS).pdf">click to download</a></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Physics</td>
+       <td><a href="syllabus/AP/PHYSICS.pdf">click to download</a></td>
+     
+    </tr>
+    <tr class="active">
+      <th scope="row">3</th>
+      <td>Chemistry</td>
+      <td><a href="syllabus/AP/CHEMISTRY.pdf">click to download</a></td>
+     
+    </tr>
+  </tbody>
+  
+  <!--Table body-->
+</table>
+</div>
+</div>
+</div>   
+</section>
+
+<!-------------------contact-------------------->
+<div class="para">
+<div class="container">
+<div class="row" style=" padding-top: 10px">
+<div class="col-md-8">
+<p class="query">For any Queries :
+<a href="#">ichaithanyasai@gmail.com</a></p>
+</div> 
+<div class="col-md-4">
+<ul class="ul-list list-unstyled"> 
+<li><span class="follow">Follow us : </span>
+<a href="https://www.instagram.com/sai__xo_/"><img src="images/insta.png" height="25px" width="25px"></a>
+</li>
+</ul> 
+</div>  
+</div>
+<hr>
+<p class="copyright">copyright &#169; 2022 Ecetcoach</p>
+</div>
+</div>
+
+<!--<div class="para">
+<div class="container">
+<p class="query">For any Queries : <a href="">ecetsolutions@gmail.com</a></p>
+<hr>
+<p class="copyright">copyright &#169; 2020 ecetsolutions</p>
+</div>
+</div>         -->       
+
+<!--<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>-->  
+         
+<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ><i></i></a> 
+  
+<script src="js/nav.js"></script>
+<script src="js/rocket.js"></script> 
+<script src="js/firebase.js"></script>
+</body>
+</html>

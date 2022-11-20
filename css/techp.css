@@ -1,0 +1,79 @@
+/*----------tech--------------*/
+#Tech{
+  background: #fff;
+  margin-bottom: 2%;
+}
+.name-pp {
+    margin-top: 2%;
+    margin-bottom:0px;
+}
+@media (max-width: 980px){
+    .name-pp {
+    padding-top: 4%;
+    margin-bottom:0px;
+}
+#Tech .name-pp h3{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#Tech .name-pp h3:after{
+    content: '';
+    background: #2196f3;
+    height:4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(5px);
+}
+}
+#Tech .name-pp h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#Tech .name-pp h3:after{
+    content: '';
+    background: #2196f3;
+    height:4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(5px);
+}
+#Tech .divider-wrapper {
+  margin-top: 5%;
+  bottom: 40px;
+  /*position: relative;
+  transition: all 0.4s ease-in;*/
+   padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 1px solid  #c5c5c5;
+}
+
+#Tech .divider-one {
+
+  background: #fff;
+    cursor: pointer;
+}
+.divider-one h3{
+    font-size: 16px;
+    text-align: left;
+}
+.divider-one img{
+    float: right;
+    margin-top: -8%;
+}
+.divider-one a{
+    text-decoration: none !important;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+

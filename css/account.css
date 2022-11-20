@@ -1,0 +1,121 @@
+.modal-content{
+    box-shadow: 0 0 20px 2px rgb(179,178,174);
+   
+}
+.modal-body{
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px; 
+   
+}
+nav .nav-tabs{
+     
+   border: none;
+    padding-top: 0px;
+}
+nav .nav-tabs a{
+    text-decoration: none !important;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 40px;   
+}
+
+#nav-home-tab {
+    background-color:#2196f3; 
+    color: #fff;
+}
+
+#nav-profile-tab {
+    color:#000;
+    background-color:#fff;
+}
+
+#nav-home-tab2 {
+    background-color:#2196f3; 
+    color: #fff;
+}
+
+#nav-profile-tab2 {
+    color:#000;
+    background-color:#fff;
+}
+
+nav .nav-tabs a:hover{
+    background-color:#2196f3; 
+    color: #fff;
+}
+.form-data{
+    position:relative;
+    margin-top:2%;
+}
+.form-data .input-field{
+     width:100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    background: transparent;
+    margin-left: 0;
+   
+}
+.form-data .input-field:hover{
+     border: 1px solid #2196f3 ;
+    
+}
+ .acc-btn{
+    
+ border:2px solid #2196f3 ;
+ background: #fff;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 6px 10px;
+  font-size: 16px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  display: inline-block;
+  margin-left: 0;
+   margin-bottom:2%;
+   outline: none ! important; 
+   text-decoration: none ! important;  
+    
+}
+/*.acc-btn:hover {
+  background: #2196f3;
+  border-color: transparent;
+  color:#fff;
+    
+}*/
+.forgot{
+   outline: none ! important;
+   text-decoration: none ! important;
+   border: none ! important;
+   background: #fff;
+   color:#2196f3;
+   padding-left:0px;
+    
+}
+/* The Close Button */
+.modal-body .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.modal-body .close:hover,
+.modal-body .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+

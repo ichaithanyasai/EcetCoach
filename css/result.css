@@ -1,0 +1,23 @@
+#result{
+    margin-top: 2%;
+    margin-bottom:24%;
+    margin-left: 5%;
+}
+.test-card{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left:2%;
+}
+.result-show{
+	display: none;
+    width: 100%;
+   overflow-x: auto;
+   
+}
+#mt1 {
+  display: none;
+}

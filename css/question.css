@@ -1,0 +1,549 @@
+/*----------------------queans---------------*/
+#queans{
+     margin-bottom: 10%;  
+     margin-left: 5%;
+     margin-right: 5%;
+  
+     
+}
+#queans .row{
+     box-shadow: 0 0 40px 2px rgba(37,73,214,0.18);
+     margin-top: 2%;
+     padding-top: 2%;
+     padding-bottom: 4%;
+     background: #fff;
+}
+.ecet {
+    text-align: center; 
+    padding-bottom: 1%; 
+    padding-top: 3%;
+    border-bottom: 2px solid #c5c5c5;  
+}
+.number{
+    color:#ff523b;
+    font-size: 14px;
+    font-weight: 600;
+}
+.report{
+    outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  float: right;
+}
+.report:hover{
+    background: #2196f3;
+  color:#fff;
+  border-color: transparent;
+}
+.text-content h2 {
+  padding-top: 5px;
+  margin-top: 0px;
+  margin-bottom:20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #232323;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  
+}
+@media (max-width: 1024px){
+.queimg{
+   width:50%;
+   
+}
+}
+@media (max-width: 980px){
+     .queimg{
+   width:100%;
+}
+}
+
+/*----------radio-----------
+.choice{
+    margin-top: 10px;
+    border:1px solid #ccc;
+    height: auto;
+    cursor: pointer;  
+    overflow: auto;
+  width: auto;
+}
+.choice-prefix{
+    background: #2196f3;
+    color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top:7px;
+    padding-bottom:7px;
+    font-weight: 400;
+    border-radius: 2%;
+    font-size: 20px;
+    border: 2px solid #f1f1f1;
+}
+.choice-text {
+    
+    font-size: 12px;
+    font-weight: 400px;
+    padding-left: 20px;
+   
+}
+.choice:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: 1px solid #2196f3;
+}*/
+
+.choice{
+    margin-top: 10px;
+    height: auto;
+    cursor: pointer;  
+    overflow: auto;
+}
+table{
+  border:1px solid #ccc;
+}
+.choice-prefix{
+    background: #2196f3;
+    color: #fff;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top:7px;
+    padding-bottom:7px;
+    font-weight: 400;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #f1f1f1;
+    
+}
+th{
+   
+    background: #ecf5ff;
+}
+.choice-text {
+    padding-left: 10px;
+   padding-right: 10px;
+}
+@media (max-width: 980px){
+  .choice-text {
+    padding-left: 10px;
+   padding-right: 10px;
+   font-size: 12px;
+}
+}
+.choice td:hover {
+    cursor: pointer;
+    background-color: #ecf5ff;
+   
+}
+
+.exp-text{
+    font-size:16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close1 {
+  color: #aaaaaa;
+  float:right;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: -2%;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*--------------showans-----------*/
+.showans{
+    padding-top:20px;
+    
+}
+.showans .btn-showans{
+  outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+}
+.showans .btn-showans:hover {
+  background: #2196f3;
+  color:#fff;
+  border-color: transparent;
+}
+.explain{
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  margin-top:1%;
+  display:none;
+}
+#panel{
+     display: none;
+}
+/*--------overlays--------*/
+.discuss-btn{
+    cursor: pointer;
+    float:right;
+    width:30px;
+    margin-right: 1%;
+    margin-top:0px;
+     border: none ! important;
+    outline: none ! important;
+    text-decoration: none ! important;
+    background-color:#fff;
+}
+/*-----------discussionforum----------*/
+
+
+.card-body{
+  
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:60px;
+  margin-top:2%;
+  margin-right: -3.5%;
+  margin-left: -3.5%;
+  height: 490px;
+  overflow:auto;
+}
+
+
+.card-body nav .nav-tabs a{
+    color:#000;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight:400;
+    line-height: 40px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.card-body nav .nav-tabs a:hover{
+    background: #2196f3;
+    padding-bottom: 0px;
+}
+ .answered{
+  background-color: #fff;
+  padding-top: 40px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:40px;
+  
+}
+
+
+/*-----------search bar--------*/
+.answered .search-box 
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: -2%;
+    
+}
+.search-box  .form-control
+{
+  width: 100%;
+  border: 1px solid #2196f3;
+  border-right: none;
+  padding:17px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #2196f3;
+  box-shadow: none !important;
+    
+}
+.search-box  .input-group-text
+{
+  width: 40px;
+  height: 36px;
+  border: 1px solid #2196f3;
+  background: #2196f3;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;  
+}
+
+
+.form1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.form1 .input-field{
+    width:100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #2196f3;
+    outline: none;
+    background: transparent; 
+}
+.post-btn{
+  outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  padding-left: 10px;
+  padding-right: 10px;
+  float:right;
+  margin-top: -2%;
+  
+}
+.post-btn:hover {
+  background: #2196f3;
+  color:#fff;
+  border-color: transparent;
+}
+.dquestion .show-btn{
+  outline: none;
+  background: transparent;
+  border: 1px solid #b5b5b5;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+}
+.dquestion .show-btn:hover {
+  background: #b5b5b5;
+  color:#fff;
+  border-color: transparent;
+}
+.answered .show-btn1{
+  outline: none;
+  background: transparent;
+  border: 1px solid #b5b5b5;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+}
+.answered .show-btn1:hover {
+  background: #b5b5b5;
+  color:#fff;
+  border-color: transparent;
+}
+.form2 {
+    padding-top: 10px;
+    padding-bottom: 50px;  
+}
+.form2 .input-field2{
+    width:100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    outline: none;
+    background: transparent; 
+    border: 1px solid #2196f3;
+}
+.post-btn2{
+  outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  padding-left: 10px;
+  padding-right: 10px;
+  float:right;
+  margin-top: -4%;
+}
+.post-btn2:hover {
+  background: #2196f3;
+  color:#fff;
+  border-color: transparent;
+}
+#panel1{
+     display: none;
+     
+}
+#panel2{
+     display: none;
+    
+}
+
+.answered .dname{
+    color:#b5b5b5;
+    font-size: 12px;
+    padding-right: 5px;
+    border-right:2px solid #2196f3;
+}
+.answered .ddate{
+    color:#b5b5b5;
+    font-size: 12px; 
+}
+.dquestion{
+    padding-top:1%;
+    padding-bottom: 2%;
+}
+.dquestion .dque{
+    color:#000;
+    font-size:14px;
+    font-weight: 400;
+    padding-right: 5px;
+}
+.danswer{
+    padding-top:0px;
+    padding-left: 10px;
+	margin-left:30px;
+    margin-bottom:1%;
+    border:1px solid #c5c5c5;
+	background:#f1f1f1;
+	height:auto;
+	
+}
+.danswer .dans{
+    color:#000;
+    font-size:12px;
+    padding-left:0px;
+}
+/*--------unanswered--------*/
+.unanswered{
+  background-color: #fff;
+  padding: 10px 20px;
+ 
+}
+#panelpanel{
+     display: none;
+     z-index:10;
+}
+.unanswered .dquestion{
+    padding-top:1%;
+    padding-bottom: 2%;
+}
+.unanswered .dname{
+    color:#b5b5b5;
+    font-size: 12px;
+    padding-right: 5px;
+    border-right:2px solid #2196f3;
+}
+.unanswered  .ddate{
+    color:#b5b5b5;
+    font-size: 12px; 
+}
+.form3 {
+    padding-top: 10px;
+    padding-bottom: 50px;  
+}
+.form3 .input-field3{
+    width:100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    outline: none;
+    background: transparent; 
+    border: 1px solid #2196f3;
+}
+ .form3 .post-btn3{
+  outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 4px 10px;
+  font-size: 18px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  padding-left: 30px;
+  padding-right: 30px;
+  float:right;
+}
+.form3 .post-btn3:hover {
+  background: #2196f3;
+  color:#fff;
+  border-color: transparent;
+}
+
+
+@media (max-width: 980px){
+  .post-btn2{
+  outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  padding-left: 5px;
+  padding-right: 5px;
+  float:right;
+    margin-top: -20%;
+}
+.post-btn{
+  outline: none;
+  background: transparent;
+  border: 1px solid #2196f3;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight:400;
+  transition: all 0.4s ease-in;
+  padding-left: 20px;
+  padding-right: 20px;
+  float:right;
+   margin-top: -14%;
+}
+
+}
+
